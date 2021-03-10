@@ -1,13 +1,12 @@
 window.onscroll = function(){scrollFunction()};//al hacer scroll
+var bx_menu = document.querySelector(".bx-menu");
+var bx_x = document.querySelector(".bx-x");
+var navBar = document.querySelector("nav")
+bx_menu.onclick = function(){showMenu()}
+bx_x.onclick = function(){showMenu()}
 
-//si hace scroll 80 px desde el inicio de la pantalla modifica los estilos del navbar
-
-function scrollFunction(){
-    if(document.body.scrollTop > 80||document.documentElement.scrollTop>80){
-        document.getElementById("navbar").style.backgroundColor = "#242627";
-        document.getElementById("navbar").style.padding = "20px 45px";
-    }else{
-        document.getElementById("navbar").style.backgroundColor = "transparent";
-        document.getElementById("navbar").style.padding = "30px 45px";
-    }
+function showMenu(){
+    bx_menu.classList.toggle("hide")
+    bx_x.classList.toggle("show")
+    navBar.classList.toggle("toggle-menu")
 }

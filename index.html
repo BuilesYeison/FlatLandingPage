@@ -10,19 +10,18 @@
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/mobile.css">
-    <script src="js/main.js"></script>
     <title>Flat Landing page</title>
 </head>
 
 <body>
     <nav>
-        <i class='bx bx-menu'></i>
-        <i class='bx bx-x'></i>
-        <div class="container">
+        <div class="nav-content">
+            <i class='bx bx-menu'></i>
+            <i class='bx bx-x'></i>
             <div class="menus">
                 <ul class="main-menu">
                     <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
+                    <li><a href="#About">About</a></li>
                     <li><a href="">Experiences</a></li>
                     <li><a href="">Contact</a></li>
                 </ul>
@@ -39,11 +38,11 @@
             <h1>GET READY!</h1>
             <hr>
             <p>Be part of the new creative generation</p>
-            <a class="cta" href="">About</a>
+            <a class="cta" href="#About">About</a>
         </div>
         <img src="img/Designer _Isometric.svg" alt="">
     </header>
-    <section class="about">
+    <section id="About" class="about">
         <div class="img-container">
             <img src="img/Startup_Outline 1.svg" alt="">
         </div>
@@ -59,6 +58,7 @@
         </div>
     </section>
 
+    <script src="js/main.js"></script>
 </body>
 
 </html>
