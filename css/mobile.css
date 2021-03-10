@@ -1,18 +1,19 @@
 @media screen and (max-width:880px) {
 
     /*nav*/
-    nav{background-color: #232526; height: 50px; position: fixed; transition: 0.4s; min-width: 100vw; overflow: hidden;}
-    .nav-content{position: relative; }
+    nav{ height: 50px; transition: 0.4s; overflow: hidden;}
     .toggle-menu{height:300px;}
-    nav a, nav i{color: white;}
-    .bx-menu, .bx-x{position: absolute; top: 5px; right: 10px; font-size: 40px; transition: 0.4s;}
+    .bx-menu, .bx-x{display: inherit; position: absolute; top: 5px; right: 10px; font-size: 40px; transition: 0.4s;}
     .hide, .bx-x{display: none;}
     .show{display: inherit;}
-    nav .menus{position: absolute; top: 50px;right: 0; left: 0; padding: 30px;}
+    nav .menus{position: absolute; top: 50px;right: 0; left: 0; padding: 30px; display: block;}
     nav .menus li{text-align: center;margin: 15px 0; }
     nav .menus li a{text-decoration:underline;}
     nav .social-media-menu {display: flex; justify-content: center; align-items: center;}
     nav .social-media-menu li {font-size: 25px; margin: 0 8px;}
+    nav .main-menu{display: block; margin: 0;}
+    nav .social-media-menu{display: flex; justify-content: center; align-items: center;margin: 0;}
+    nav li{margin:0;}
     /*header*/
     header img {
         display: none;

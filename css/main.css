@@ -59,6 +59,14 @@ a{text-decoration: none;color: black;}
 body{font-family: 'Montserrat', sans-serif;}
 
 /*nav*/
+nav{position: fixed; min-width: 100vw;background-color: #232526;}
+nav a, nav i{color: white; font-size: 20px; font-weight: normal; transition: color 0.4s;}
+nav a:hover,nav i:hover{color: #E54C3C;}
+.bx-menu, .bx-x{display: none;}
+.nav-content{position: relative; }
+.menus{width: 80%; margin: auto; display: flex; justify-content: space-between;}
+nav .main-menu, nav .social-media-menu{display: inline-flex;margin: 30px 0; transition: 0.4s;}
+nav li{margin:0 30px;}
 
 /*header*/
 header{min-height: 100vh;background: linear-gradient(90deg, #232526 0%, #414345 100%);display: flex;justify-content: space-around;align-items: center;}
