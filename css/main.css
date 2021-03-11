@@ -69,7 +69,7 @@ nav .main-menu, nav .social-media-menu{display: inline-flex;margin: 30px 0; tran
 nav li{margin:0 30px;}
 
 /*header*/
-header{min-height: 100vh;background: linear-gradient(90deg, #232526 0%, #414345 100%);display: flex;justify-content: space-around;align-items: center;}
+header{min-height: 100vh;background: #2c2d2e;;display: flex;justify-content: space-around;align-items: center;}
 header .text-container{color: white; text-align: center; width: 40%;}
 header .text-container h1{font-weight: 700; font-size: 50px;}
 header .text-container hr{border: 1px solid white; margin: 12px auto;}
@@ -99,10 +99,10 @@ header .cta:active{background-color: #EC4343;}
 .experiences .cards .card .cta i{font-size: 22px;font-weight: 500;color: #E54C3C;}
 
 /*contact*/
-.contact{background: linear-gradient(90deg, #232526 0%, #414345 100%); min-height: 50vh; display: flex; justify-content: center; align-items: center; flex-direction: column;}
+.contact{background: #2c2d2e; min-height: 50vh; display: flex; justify-content: center; align-items: center; flex-direction: column;}
 .contact h2{font-weight: 700; font-size: 40px; color: white;}
 .contact .inputs{margin: 50px auto; width: 80%;display: flex;justify-content: space-evenly; }
-.contact .inputs input{width: 40%; padding: 15px 10px; background-color: transparent; outline: none; transition: 0.4s; -webkit-transition: 0.4s; color: white; font-size: 15px; font-weight: 500; border: 1px solid rgb(255, 233, 233, 0.5); }
+.contact .inputs input{width: 45%; padding: 15px 10px; background-color: transparent; outline: none; transition: 0.4s; -webkit-transition: 0.4s; color: white; font-size: 15px; font-weight: 500; border: 1px solid rgb(255, 233, 233, 0.5); }
 .contact .inputs input:focus{border: 2px solid rgb(255, 233, 233, 0.7);}
 .contact .cta{color: white; padding: 15px 20px; background-color: #F5604B; font-weight: 500; font-size: 18px; transition: background-color 0.4s;}
 .contact .cta:hover{background-color: #E54C3C;}
