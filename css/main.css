@@ -107,3 +107,9 @@ header .cta:active{background-color: #EC4343;}
 .contact .cta{color: white; padding: 15px 20px; background-color: #F5604B; font-weight: 500; font-size: 18px; transition: background-color 0.4s;}
 .contact .cta:hover{background-color: #E54C3C;}
 .contact .cta:active{background-color: #EC4343;}
+
+/*footer*/
+footer{background-color: #111213; text-align: center;padding: 20px;}
+footer p{color: white;margin: 5px 0;}
+footer p a{color: #F5604B; font-weight: 500; transition: color 0.4s;}
+footer p a:hover{color: #E54C3C;}
