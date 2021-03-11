@@ -97,3 +97,13 @@ header .cta:active{background-color: #EC4343;}
 .experiences .cards .card p{font-size: 20px; color:#414345;}
 .experiences .cards .card .cta{font-size: 20px;font-weight: 500;color: #E54C3C;position: absolute; bottom: 0; left: 0;}
 .experiences .cards .card .cta i{font-size: 22px;font-weight: 500;color: #E54C3C;}
+
+/*contact*/
+.contact{background: linear-gradient(90deg, #232526 0%, #414345 100%); min-height: 50vh; display: flex; justify-content: center; align-items: center; flex-direction: column;}
+.contact h2{font-weight: 700; font-size: 40px; color: white;}
+.contact .inputs{margin: 50px auto; width: 80%;display: flex;justify-content: space-evenly; }
+.contact .inputs input{width: 40%; padding: 15px 10px; background-color: transparent; outline: none; transition: 0.4s; -webkit-transition: 0.4s; color: white; font-size: 15px; font-weight: 500; border: 1px solid rgb(255, 233, 233, 0.5); }
+.contact .inputs input:focus{border: 2px solid rgb(255, 233, 233, 0.7);}
+.contact .cta{color: white; padding: 15px 20px; background-color: #F5604B; font-weight: 500; font-size: 18px; transition: background-color 0.4s;}
+.contact .cta:hover{background-color: #E54C3C;}
+.contact .cta:active{background-color: #EC4343;}

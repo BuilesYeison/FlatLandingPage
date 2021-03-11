@@ -45,7 +45,9 @@
     .experiences .cards{width: auto; flex-direction: column;}
     .experiences .cards .card{width: 100%; position: relative; min-height: 240px; margin: auto; padding: 50px 0;}
 
-}
-@media screen and (min-width:800px) {
-    
+    /*Contact*/
+    .contact{min-height: 60vh;}
+    .contact .inputs{flex-direction: column; align-items: center; margin: 20px 0;}
+    .contact .inputs input{width: 100%; margin: 10px 0;}
+
 }
