@@ -59,7 +59,7 @@ a{text-decoration: none;color: black;}
 body{font-family: 'Montserrat', sans-serif;}
 
 /*nav*/
-nav{position: fixed; min-width: 100vw;background-color: #232526;}
+nav{position: fixed; min-width: 100vw;background-color: #232526; z-index: 9999;}
 nav a, nav i{color: white; font-size: 20px; font-weight: normal; transition: color 0.4s;}
 nav a:hover,nav i:hover{color: #E54C3C;}
 .bx-menu, .bx-x{display: none;}
@@ -74,9 +74,9 @@ header .text-container{color: white; text-align: center; width: 40%;}
 header .text-container h1{font-weight: 700; font-size: 50px;}
 header .text-container hr{border: 1px solid white; margin: 12px auto;}
 header .text-container p{font-weight: 400; font-size: 30px;margin-bottom: 50px;}
-.cta{padding: 15px 40px; background: #F5604B; color: white;}
-.cta:hover{background-color: #E54C3C;}
-.cta:active{background-color: #EC4343;}
+header .cta{padding: 15px 40px; background: #F5604B; color: white; transition: background-color 0.4s;}
+header .cta:hover{background-color: #E54C3C;}
+header .cta:active{background-color: #EC4343;}
 
 /*about*/
 .about{display: flex;}
@@ -86,3 +86,14 @@ header .text-container p{font-weight: 400; font-size: 30px;margin-bottom: 50px;}
 .about .content h2{font-size: 40px;font-weight: 700;}
 .about .content p{font-size: 25px;font-weight: 400px;margin: 30px 0;}
 .about .content a{color: white; border-bottom:1px solid whitesmoke;}
+
+/*Experiences*/
+.experiences{min-height: 80vh; display: flex; flex-direction: column; justify-content: center;align-items: center;}
+.experiences h2{font-size: 40px; font-weight: 700; text-align: center; margin-top: 80px; color: #232526;}
+.experiences .cards{width: 90%; margin: auto; display: flex; justify-content: space-between; }
+.experiences .cards .card{width: 30%; position: relative; min-height: 300px;}
+.experiences .cards .card i{font-size: 58px; color: #E54C3C;}
+.experiences .cards .card h3{font-size: 25px; color: #232526; font-weight: 500; margin: 15px 0;}
+.experiences .cards .card p{font-size: 20px; color:#414345;}
+.experiences .cards .card .cta{font-size: 20px;font-weight: 500;color: #E54C3C;position: absolute; bottom: 0; left: 0;}
+.experiences .cards .card .cta i{font-size: 22px;font-weight: 500;color: #E54C3C;}
